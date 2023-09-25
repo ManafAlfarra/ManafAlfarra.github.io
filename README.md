@@ -1,4 +1,5 @@
 # ManafAlfarra.github.io
+<!DOCTYPE html>
 <html>
 <body>
   <h1> Manaf Elfarra </h1> 
