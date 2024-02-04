@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Puzzle Assignment</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0px;
+      padding: 20px;
+    }
+    
+     img {
+      vertical-align: bottom;
+    }
+    
+     .name-section {
+      grid-column: span 1;
+    }
+
+    .puzzle-section {
+      grid-column: span 1;
+    }
+
+    .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.puzzle-piece {
+  width: calc(25%); 
+  height: calc(25vh); 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.piece1 { order: 3; }
+.piece2 { order: 7; }
+.piece3 { order: 12; }
+.piece4 { order: 17; }
+.piece5 { order: 10; }
+.piece6 { order: 14; }
+.piece7 { order: 2; }
+.piece8 { order: 8; }
+.piece9 { order: 13; }
+.piece10 { order: 4; }
+.piece11 { order: 16; }
+.piece12 { order: 15; }
+.piece13 { order: 5; }
+.piece14 { order: 11; }
+.piece15 { order: 9; }
+.piece16 { order: 6; }
+.piece17 { order: 1; }
+
+.faulty-piece {
+      width: calc(25%);
+      height: calc(25vh);
+      display: none;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="grid-container">
+    <div class="name-section">
+      <h1>Manaf Elfarra</h1>
+      <p>Selected Puzzle: Butterflies</p>
+      <p>Date: February 4, 2024</p>
+   </div>
+
+
+    <div class="puzzle-section">
+      <div class="flex-container">
+        <img class="puzzle-piece piece1" src="images/1.jpg" alt="Piece 1">
+        <img class="puzzle-piece piece2" src="images/2.jpg" alt="Piece 2">
+        <img class="puzzle-piece piece3" src="images/3.jpg" alt="Piece 3">
+        <img class="puzzle-piece piece5" src="images/5.jpg" alt="Piece 5">
+        <img class="puzzle-piece piece6" src="images/6.jpg" alt="Piece 6">
+        <img class="puzzle-piece piece7" src="images/7.jpg" alt="Piece 7">
+        <img class="puzzle-piece piece8" src="images/8.jpg" alt="Piece 8">
+        <img class="puzzle-piece piece9" src="images/9.jpg" alt="Piece 9">
+        <img class="puzzle-piece piece10" src="images/10.jpg" alt="Piece 10">
+        <img class="puzzle-piece piece11" src="images/11.jpg" alt="Piece 11">
+        <img class="puzzle-piece piece12" src="images/12.jpg" alt="Piece 12">
+        <img class="puzzle-piece piece13" src="images/13.jpg" alt="Piece 13">
+        <img class="puzzle-piece piece14" src="images/14.jpg" alt="Piece 14">
+        <img class="puzzle-piece piece15" src="images/15.jpg" alt="Piece 15">
+        <img class="puzzle-piece piece16" src="images/16.jpg" alt="Piece 16">
+        <img class="puzzle-piece piece17" src="images/17.jpg" alt="Piece 17">
+        <!-- Display property to hide the faulty puzzle piece -->
+        <img class="puzzle-piece faulty-piece piece4" src="images/4.jpg" alt="Faulty Piece">
+      </div>
+    </div>
+
+
+</body>
+</html>
 
