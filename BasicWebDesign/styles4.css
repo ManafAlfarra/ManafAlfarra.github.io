@@ -1,0 +1,41 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center; 
+}
+
+.card .answer {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .answer {
+    opacity: 1;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.card h3, .card .answer {
+    font-family: Verdana, sans-serif; 
+    font-size: 1.2rem;
+}
+
+header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+
