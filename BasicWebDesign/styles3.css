@@ -1,0 +1,67 @@
+.penguin {
+  border-radius: 50%;
+  filter: sepia(30%);
+  width: 300px;
+  height: 200px;
+  border: 1px solid;
+}
+
+.footballfield {
+  width: 400px;
+  height: 150px;
+  border: 25px solid;
+  border-image: url("tictactoe.png") 10 round; 
+  border-image-slice: 48 fill;
+  border-image-outset: 6px; 
+  border-image-width: 30px;
+  filter: grayscale(100%); 
+}
+
+.dinosaur {
+ filter: hue-rotate(90deg);
+ width: 250px; 
+ height: 300px;
+}
+
+.butterfly {
+filter: brightness(75%) invert(100%);
+border-radius: 100px 0px 100px 0px;
+}
+
+.seagull {
+  background: linear-gradient(to bottom right, rgba(173, 216, 230, 0.7), rgba(240, 248, 255, 0.7));
+  background-size: cover;
+  height: 50vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; 
+  text-align: center;
+}
+.theaterstage {
+  filter: blur(3px); 
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 58%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  font-size: 54px;
+  color: white;
+  text-align: center;
+  z-index: 1;
+ filter: none;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; 
+}
