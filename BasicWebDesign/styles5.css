@@ -152,7 +152,7 @@ main {
 }
 
 .complex-table th, .complex-table td {
-    border: 1px solid #000;
+    border: 1px solid #000000;
     padding: 18px;
     text-align: left;
 }
